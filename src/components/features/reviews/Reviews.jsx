@@ -107,7 +107,9 @@ const Reviews = () => {
                               >
                                 <div className="review-content">
                                   <div className="review-content-container">
-                                    <img src={pp} /> <b>{revName}</b>
+                                    <div className="user-details">
+                                      <img src={pp} /> <b>{revName}</b>
+                                    </div>
                                     <b className="rating">
                                       <h3>{rating}</h3>
                                       <span>
