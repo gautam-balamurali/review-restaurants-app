@@ -1,17 +1,11 @@
-.navigation {
+.header {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
-  padding-top: 1rem;
+  padding: 1rem;
 }
 
 .link {
   text-decoration: none;
   color: var(--primary-color);
-}
-
-.navigation .active {
-  color: var(--dark-shade-color);
-  font-weight: 600;
-  font-size: 1.4rem;
 }

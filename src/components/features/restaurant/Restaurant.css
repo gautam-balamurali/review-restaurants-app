@@ -1,0 +1,65 @@
+.restaurant-list-section {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 2rem;
+}
+
+.restaurant h2 {
+  padding-inline: 2rem;
+  text-align: left;
+}
+
+.restaurant-menu {
+  text-align: left;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding: 2rem;
+  cursor: pointer;
+  text-decoration: none;
+  color: #000000;
+}
+
+.menu-item {
+  display: flex;
+  box-shadow: 0 0 5px rgba(211, 211, 211, 0.76);
+  border-radius: 5px;
+  flex-direction: column;
+  align-items: center;
+  width: 15rem;
+}
+
+.menu-content {
+  margin: 1rem;
+  text-align: left;
+  width: calc(100% - 2rem);
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu-details {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.menu-details span,
+.price {
+  font-size: 0.8rem;
+  color: #808080;
+}
+
+.menu-image {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  border-radius: 5px 5px 0 0;
+}
+
+.menu-image img {
+  height: 15.25rem;
+  width: auto;
+}

@@ -1,0 +1,32 @@
+.food-menu-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  gap: 1rem;
+}
+
+.food-menu-container h2 {
+  padding-top: 1rem;
+}
+
+.cuisine-list-section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  align-items: center;
+}
+
+.cuisine-type {
+  background-color: #ef4f5f;
+  color: #fff5f5;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  border: 1px solid #ef4f5f;
+}
+
+.active {
+  color: #ef4f5f;
+  background-color: #fff5f5;
+}
