@@ -1,4 +1,17 @@
-# Getting Started with Create React App
+# 🍣Restaurants Review App📝
+
+- A restaurants review app where you can add reviews for the restaurants.
+
+## Tech Stack
+
+- React
+- Netlify
+
+## Preview
+
+- [View Live](https://review-restaurants-gautam-balamurali.netlify.app/)
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

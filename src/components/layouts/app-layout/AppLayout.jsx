@@ -21,7 +21,7 @@ const AppLayout = () => {
         draggable
         pauseOnHover
       />
-      <Header />
+      {/* <Header /> */}
       <section className="section">
         <AppRoutes />
       </section>

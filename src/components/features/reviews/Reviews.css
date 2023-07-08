@@ -1,0 +1,168 @@
+.review-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 4rem;
+}
+
+.back-btn {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 1rem;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.review-container h1 {
+  font-size: 3rem;
+  font-weight: 300;
+  color: #000000;
+}
+
+.review-container h2 {
+  font-size: 1.8rem;
+  padding-bottom: 2rem;
+}
+
+.reviews-section {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.restaurant-details-section {
+  display: flex;
+  align-items: center;
+}
+
+.restaurant-details {
+  display: flex;
+  flex-direction: column;
+  color: #808080;
+  gap: 0.2rem;
+}
+
+.restaurant-details hr {
+  width: 100%;
+}
+
+.review-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.review-section-details {
+  width: 100%;
+}
+
+.restaurant-reviews {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.review-content {
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.review-content-container {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  width: 100%;
+}
+
+.review-content-container img {
+  border-radius: 6.2rem;
+  height: 1.9rem;
+}
+
+.rating {
+  display: flex;
+  align-items: center;
+  color: #ffd700;
+  background: #008000;
+  padding: 0.1rem 0.4rem;
+  border-radius: 5px;
+}
+
+.rating span {
+  font-size: 0.9rem;
+}
+
+.add-review {
+  min-width: max-content;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  border-radius: 1rem;
+  background: #ef4f5f;
+  color: #fff5f5;
+  padding: 2rem;
+  width: 20rem;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.add-review h2 {
+  align-self: center;
+  padding-block-end: 1rem;
+  border-bottom: 1px solid #ffffff;
+}
+
+.set-rating,
+.add-comment {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-block: 1rem;
+  font-size: 1.2rem;
+}
+
+.set-rating select,
+.add-comment textarea,
+.add-review button,
+.open-review-modal-btn {
+  padding: 0.5rem;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+}
+
+.add-comment textarea {
+  width: 50%;
+  resize: none;
+}
+
+.add-review button {
+  padding: 0.6rem 2.5rem;
+  font-size: 1.1rem;
+  font-weight: bold;
+  align-self: center;
+  cursor: pointer;
+}
+
+.close {
+  position: absolute;
+  left: 1rem;
+  top: 1rem;
+  cursor: pointer;
+}
+
+.open-review-modal-btn {
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  margin-left: auto;
+  background: #ef4f5f;
+  color: #fff5f5;
+  cursor: pointer;
+}
